@@ -26,7 +26,7 @@ function page() {
                             <Link href={pro.link} key={proIdx} target="_blank">
                                 <div className="border border-zinc-500/30 hover:border-zinc-500/40 rounded-xl h-full !p-[1px] transition-all duration-200 cursor-pointer">
                                     <div className="flex flex-col gap-2 p-6">
-                                        <img src="https://cdn.voiddevs.co/ZNLYZZv/20cb5ebbe445.png" className="z-[1] w-full aspect-video rounded-xl object-cover mb-2" />
+                                        {/* <img src="https://cdn.voiddevs.co/ZNLYZZv/20cb5ebbe445.png" className="z-[1] w-full aspect-video rounded-xl object-cover mb-2" /> */}
                                         <h1 className="text-base font-bold text-transparent bg-clip-text bg-gradient-to-br from-gray-100 to-indigo-300">{pro.product}</h1>
                                         <p className="text-sm font-medium text-gray-500 max-w-xl line-clamp-4">{[pro.message]}</p>
                                     </div>
